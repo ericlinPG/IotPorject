@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		073E4EA62036A3C20030657B /* RBGViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E4EA42036A3C20030657B /* RBGViewController.swift */; };
+		073E4EA72036A3C20030657B /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E4EA52036A3C20030657B /* LightViewController.swift */; };
+		073E4EA92039232D0030657B /* DHTViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E4EA82039232D0030657B /* DHTViewController.swift */; };
+		073E4ED0203AA09E0030657B /* MTBiometricAuthentication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E4ECE203AA09E0030657B /* MTBiometricAuthentication.swift */; };
+		073E4ED1203AA09E0030657B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073E4ECF203AA09E0030657B /* LoginViewController.swift */; };
+		074F7CF42045504B00B939BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 074F7CF32045504B00B939BC /* GoogleService-Info.plist */; };
+		07C13B76204828E7005B38E2 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C13B75204828E7005B38E2 /* AccountViewController.swift */; };
+		07CF8E5B20356053001BD51E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CF8E5A20356053001BD51E /* AppDelegate.swift */; };
+		07CF8E6220356053001BD51E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF8E6020356053001BD51E /* Main.storyboard */; };
+		07CF8E6720356054001BD51E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CF8E6520356054001BD51E /* LaunchScreen.storyboard */; };
+		07F56B0D2046F1EC0042DBED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07F56B0C2046F1E60042DBED /* Assets.xcassets */; };
+		E5BF64DB743BAD3ED34E2866 /* Pods_IoTPreject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D00C60EAF557352049EF36E /* Pods_IoTPreject.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		073E4EA42036A3C20030657B /* RBGViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RBGViewController.swift; sourceTree = "<group>"; };
+		073E4EA52036A3C20030657B /* LightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightViewController.swift; sourceTree = "<group>"; };
+		073E4EA82039232D0030657B /* DHTViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DHTViewController.swift; sourceTree = "<group>"; };
+		073E4ECE203AA09E0030657B /* MTBiometricAuthentication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MTBiometricAuthentication.swift; sourceTree = "<group>"; };
+		073E4ECF203AA09E0030657B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		074F7CF32045504B00B939BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		07C13B75204828E7005B38E2 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		07CF8E5720356053001BD51E /* IoTPreject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IoTPreject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CF8E5A20356053001BD51E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07CF8E6120356053001BD51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07CF8E6620356054001BD51E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07CF8E6820356055001BD51E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07F56B0C2046F1E60042DBED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D00C60EAF557352049EF36E /* Pods_IoTPreject.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IoTPreject.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D952226ABD40297B18FE8C8 /* Pods-IoTPreject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTPreject.release.xcconfig"; path = "Pods/Target Support Files/Pods-IoTPreject/Pods-IoTPreject.release.xcconfig"; sourceTree = "<group>"; };
+		97A6DE2BE3320CA4E0F9FB33 /* Pods-IoTPreject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IoTPreject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IoTPreject/Pods-IoTPreject.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CF8E5420356053001BD51E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5BF64DB743BAD3ED34E2866 /* Pods_IoTPreject.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		07CF8E4E20356052001BD51E = {
+			isa = PBXGroup;
+			children = (
+				07CF8E5920356053001BD51E /* IoTPreject */,
+				07CF8E5820356053001BD51E /* Products */,
+				5DFA08C767D2579AF8FDF304 /* Pods */,
+				5EAF1453C337CF61A9EB4F5D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07CF8E5820356053001BD51E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CF8E5720356053001BD51E /* IoTPreject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CF8E5920356053001BD51E /* IoTPreject */ = {
+			isa = PBXGroup;
+			children = (
+				07CF8E5A20356053001BD51E /* AppDelegate.swift */,
+				073E4ECF203AA09E0030657B /* LoginViewController.swift */,
+				07C13B75204828E7005B38E2 /* AccountViewController.swift */,
+				073E4EA82039232D0030657B /* DHTViewController.swift */,
+				073E4EA52036A3C20030657B /* LightViewController.swift */,
+				073E4EA42036A3C20030657B /* RBGViewController.swift */,
+				073E4ECE203AA09E0030657B /* MTBiometricAuthentication.swift */,
+				07CF8E6020356053001BD51E /* Main.storyboard */,
+				07F56B0C2046F1E60042DBED /* Assets.xcassets */,
+				07CF8E6520356054001BD51E /* LaunchScreen.storyboard */,
+				07CF8E6820356055001BD51E /* Info.plist */,
+				074F7CF32045504B00B939BC /* GoogleService-Info.plist */,
+			);
+			path = IoTPreject;
+			sourceTree = "<group>";
+		};
+		5DFA08C767D2579AF8FDF304 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97A6DE2BE3320CA4E0F9FB33 /* Pods-IoTPreject.debug.xcconfig */,
+				2D952226ABD40297B18FE8C8 /* Pods-IoTPreject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5EAF1453C337CF61A9EB4F5D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1D00C60EAF557352049EF36E /* Pods_IoTPreject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07CF8E5620356053001BD51E /* IoTPreject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CF8E6B20356055001BD51E /* Build configuration list for PBXNativeTarget "IoTPreject" */;
+			buildPhases = (
+				1D09E40A595A9B0A87D28200 /* [CP] Check Pods Manifest.lock */,
+				07CF8E5320356053001BD51E /* Sources */,
+				07CF8E5420356053001BD51E /* Frameworks */,
+				07CF8E5520356053001BD51E /* Resources */,
+				34157B1E1082279D0C492647 /* [CP] Embed Pods Frameworks */,
+				6F56EC013CF5F8C6854383AB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IoTPreject;
+			productName = IoTPreject;
+			productReference = 07CF8E5720356053001BD51E /* IoTPreject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CF8E4F20356052001BD51E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Eric Lin";
+				TargetAttributes = {
+					07CF8E5620356053001BD51E = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 07CF8E5220356052001BD51E /* Build configuration list for PBXProject "IoTPreject" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07CF8E4E20356052001BD51E;
+			productRefGroup = 07CF8E5820356053001BD51E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CF8E5620356053001BD51E /* IoTPreject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07CF8E5520356053001BD51E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CF8E6720356054001BD51E /* LaunchScreen.storyboard in Resources */,
+				074F7CF42045504B00B939BC /* GoogleService-Info.plist in Resources */,
+				07F56B0D2046F1EC0042DBED /* Assets.xcassets in Resources */,
+				07CF8E6220356053001BD51E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1D09E40A595A9B0A87D28200 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IoTPreject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		34157B1E1082279D0C492647 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IoTPreject/Pods-IoTPreject-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IoTPreject/Pods-IoTPreject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6F56EC013CF5F8C6854383AB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IoTPreject/Pods-IoTPreject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CF8E5320356053001BD51E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				073E4ED1203AA09E0030657B /* LoginViewController.swift in Sources */,
+				073E4ED0203AA09E0030657B /* MTBiometricAuthentication.swift in Sources */,
+				07C13B76204828E7005B38E2 /* AccountViewController.swift in Sources */,
+				073E4EA62036A3C20030657B /* RBGViewController.swift in Sources */,
+				073E4EA92039232D0030657B /* DHTViewController.swift in Sources */,
+				07CF8E5B20356053001BD51E /* AppDelegate.swift in Sources */,
+				073E4EA72036A3C20030657B /* LightViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07CF8E6020356053001BD51E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CF8E6120356053001BD51E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07CF8E6520356054001BD51E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CF8E6620356054001BD51E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07CF8E6920356055001BD51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07CF8E6A20356055001BD51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CF8E6C20356055001BD51E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97A6DE2BE3320CA4E0F9FB33 /* Pods-IoTPreject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGB7AWLNAE;
+				INFOPLIST_FILE = IoTPreject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericlin.IoTPreject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		07CF8E6D20356055001BD51E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D952226ABD40297B18FE8C8 /* Pods-IoTPreject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SGB7AWLNAE;
+				INFOPLIST_FILE = IoTPreject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericlin.IoTPreject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CF8E5220356052001BD51E /* Build configuration list for PBXProject "IoTPreject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF8E6920356055001BD51E /* Debug */,
+				07CF8E6A20356055001BD51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CF8E6B20356055001BD51E /* Build configuration list for PBXNativeTarget "IoTPreject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CF8E6C20356055001BD51E /* Debug */,
+				07CF8E6D20356055001BD51E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07CF8E4F20356052001BD51E /* Project object */;
+}
